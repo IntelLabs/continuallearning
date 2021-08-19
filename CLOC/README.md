@@ -22,7 +22,7 @@ Usage
 =====
 1. clone this repo.
 
-2. download meta-data of CLOC from "[https://drive.google.com/file/d/1UdIZe_9rEemO2QukHw7bf6aDFV-RjAfc/view?usp=sharing](google drive link)". Decompress it into "CLOC/data_preparation/release", via:
+2. download meta-data of CLOC from [the google drive link](https://drive.google.com/file/d/1UdIZe_9rEemO2QukHw7bf6aDFV-RjAfc/view?usp=sharing). Decompress it into "CLOC/data_preparation/release", via:
 
 ```
 mv metadata.tar.gz CLOC/data_preparation/
