@@ -4,19 +4,21 @@
 
 Author: Zhipeng Cai, Ozan Sener, Vladlen Koltun
 
-[(Paper link)](coming soon)
+[[Paper link]](https://arxiv.org/pdf/2108.09020.pdf)
 
 This repo contains the code for reproducing the experiments in the paper. 
 
 Prerequisite
 ============
-python 3
+1. python 3
 
-pytorch 1.7+
+2. pytorch 1.7+
 
-tensorboardX
+3. tensorboardX
 
-numpy
+4. numpy
+
+We run the experiments mainly using 4 Quadro RTX 6000 GPUs.
 
 Usage
 =====
