@@ -1,17 +1,15 @@
 # CLOC
 
-# Code for ICCV 2021 paper: Online Continual Learning with Natural Distribution Shifts: An Empirical Study with Visual Data. 
-
-Author: Zhipeng Cai, Ozan Sener, Vladlen Koltun
-
-[[Paper link]](https://arxiv.org/pdf/2108.09020.pdf)
+Description
+===========
 
 ![alt text](https://github.com/ZhipengCai/ZhipengCai.github.io/blob/master/papers/CLOC.png " ")
 
-This repo contains the code for reproducing the experiments in the paper. 
+This repo contains the code for our ICCV 2021 paper: Online Continual Learning with Natural Distribution Shifts: An Empirical Study with Visual Data. 
 
-Description
-===========
+Authors: Zhipeng Cai, Ozan Sener, Vladlen Koltun
+
+[[Paper link]](https://arxiv.org/pdf/2108.09020.pdf)
 
 We perform an empirical study for online visual continual learning with natural distribution shifts. 
 
@@ -20,6 +18,18 @@ We perform an empirical study for online visual continual learning with natural 
 2. We define online continual learning on CLOC, and distinguish learning efficacy (how fast can the model adapt to new data) from information retention (how well can the model remember old knowledge). Previous studies mostly focuses on offline continual learning, and optimizes for information retention. In this paper, we show that learning efficacy and information retention are somewhat conflicting, and propose serveral strategies to optimize learning efficacy.
 
 With the proposed strategies, our online continual learning model can perform on-par or better than supervised learning models given similar budgets.
+
+The code in this repo is free for non-commercial academic use. Any commercial use is strictly 
+prohibited without the authors' consent. Please acknowledge the authors by citing:
+
+```
+@inproceedings{cai2021online,
+  title={Online Continual Learning with Natural Distribution Shifts: An Empirical Study with Visual Data.},
+  author={Cai, Zhipeng and Sener, Ozan and Koltun, Vladlen},
+  booktitle={International Conference on Computer Vision},
+  year={2021}
+}
+```
 
 Prerequisite
 ============
