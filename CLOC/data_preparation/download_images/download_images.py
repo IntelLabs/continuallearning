@@ -76,7 +76,7 @@ root_folder = 'dataset/' # name of the root folder for storing the images, remem
 
 print("downloading files [{} , {}]".format(current_start, current_end))
 sys.stdout.flush()
-fname = '../release/yfcc100m_full_dataset_alt/download_link_and_locations.csv'
+fname = '../release/download_link_and_locations.csv'
 with open(fname) as f:
 	csv_reader = csv.reader(f, delimiter=',')
 	line_count = 0
