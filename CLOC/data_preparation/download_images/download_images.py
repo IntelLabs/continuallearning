@@ -64,7 +64,8 @@ header = ['photoid', 'uid', 'unickname', 'datetaken', 'capturedevice', 'title', 
 # f_out = open('new_metadata.csv.zip', 'r')
 csv.field_size_limit(sys.maxsize)
 
-urls_and_paths = []success_number_total = 0
+urls_and_paths = []
+success_number_total = 0
 
 num_process = 5 # accelerate downloading using multiple processes
 current_start = 0 # restart from the previous image id, can be used to resume download if there is a time limit constraint to run the downloader
