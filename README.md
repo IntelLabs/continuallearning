@@ -4,3 +4,4 @@ The "CLOC" folder contains the code for ICCV 2021 paper: Online Continual Learni
 
 [[Paper link]](https://arxiv.org/pdf/2108.09020.pdf)
 
+> reviewed: 12.19.2022 michaelbeale-il
