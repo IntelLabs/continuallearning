@@ -11,9 +11,10 @@ Authors: Zhipeng Cai, Ozan Sener, Vladlen Koltun
 
 [[Paper link]](https://arxiv.org/pdf/2108.09020.pdf)
 
+
 We perform an empirical study for online visual continual learning with natural distribution shifts. 
 
-1. We create a large scale continual learning benchmark called Continual LOCalization (CLOC), which contains roughly 39 million images taken from 8 years. We construct a continual classification task using the time stamp and geo-location of each image. CLOC is suitable for benchmarking continual learning due to its large scale and natural distribution shifts. We provide the code to construct CLOC here.
+1. We create a large scale continual learning benchmark called Continual LOCalization (CLOC), which contains roughly 39 million images taken from 8 years. We construct a continual classification task using the time stamp and geo-location of each image. CLOC is suitable for benchmarking continual learning due to its large scale and natural distribution shifts. We provide the code to construct CLOC here. ([[New host for CLOC dataset is now avaiable!]](https://github.com/hammoudhasan/CLDatasets)) If you just need the CLOC dataset, visit this link and follow their instructions for faster/easier download!
 
 2. We define online continual learning (OCL) on CLOC, and distinguish learning efficacy (how fast can the model adapt to new data) from information retention (how well can the model remember old knowledge). Previous studies mostly focus on offline continual learning, and optimize for information retention. In this paper, we show that learning efficacy and information retention are somewhat conflicting, and propose serveral strategies to optimize learning efficacy.
 
@@ -96,3 +97,4 @@ Homepage: https://zhipengcai.github.io/
 Email: czptc2h@gmail.com
 
 Do not hesitate to contact the authors if you have any question or find any bug :)
+
